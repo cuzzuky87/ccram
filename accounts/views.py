@@ -12,4 +12,4 @@ class Login(LoginView):
     template_name = 'accounts/login.html'
 
 class Logout(LoginRequiredMixin,LogoutView):
-    template_name = 'accounts/logout.html'
+    template_name = 'accounts/top.html'

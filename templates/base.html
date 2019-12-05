@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title%}{% end block%}</title>
+    <title>{% block title%}{% endblock%}</title>
 </head>
 <body>
     <nav><a href="#">image</a> 
@@ -15,7 +15,11 @@
         <li><a href="#">Sign up</a></li>
     {%endif%}
     </ul></nav>
-    {%block content%}
-    {%end block%}
+
+    <main>
+        {%block content%}
+
+        {%endblock%}
+    </main>
 </body>
 </html>
