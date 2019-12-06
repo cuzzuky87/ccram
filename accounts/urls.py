@@ -1,7 +1,7 @@
 from django.urls import path
 from .views import Top,Login,Logout
 
-appname = 'accounts'
+app_name = 'accounts'
 
 urlpatterns = [
     path('top/', Top.as_view(), name='top'),
