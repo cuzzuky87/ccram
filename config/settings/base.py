@@ -3,6 +3,7 @@ import environ
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = environ.Path(__file__) - 3
+PROJECT_NAME = os.path.basename(BASE_DIR)
 
 env = environ.Env()
 

@@ -1,8 +1,14 @@
+{%load static%}
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "js/fullcalendar/packages/core/main.css"%}">
+    <link rel="stylesheet" href="{% static "jf/fullcalendar/packages/daygrid/main.css"%}">
+
+    <script src="{% static "js/fullcalendar/packages/core/main.js" %}"></script>
+    <script src="{% static "js/fullcalendar/packages/daygrid/main.js" %}"></script>
     <title>{% block title%}{% endblock%}</title>
 </head>
 <body>
