@@ -100,4 +100,4 @@ USE_TZ = True
 AUTH_USER_MODEL = 'accounts.User'
 
 LOGIN_URL = 'accounts:login'
-LOGIN_REDIRECT_URL = 'accounts:top'
+LOGIN_REDIRECT_URL = 'reserver:top'
