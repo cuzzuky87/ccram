@@ -4,8 +4,6 @@ from django.views.generic import TemplateView
 from .forms import LoginForm
 
 
-class Top(TemplateView):
-    template_name = 'accounts/top.html'
 
 class Login(LoginView):
     form_class = LoginForm
